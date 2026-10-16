@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "techintel-agent"
+version = "0.1.0"
+description = "Evidence-grounded technical intelligence agent demo: RAG, tools, MCP, memory, eval and FastAPI"
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi>=0.110,<1",
+  "uvicorn>=0.29,<1",
+  "scikit-learn>=1.3,<2",
+  "pydantic>=2,<3",
+  "openai>=1.60,<4",
+  "pypdf>=4,<7"
+]
+
+[project.optional-dependencies]
+mcp = ["mcp>=2,<3"]
+dev = ["pytest>=8,<10", "httpx>=0.27,<1"]
+
+[project.scripts]
+techintel = "techintel.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

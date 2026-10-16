@@ -1,0 +1,57 @@
+{
+  "dataset": "synthetic hand-authored demo queries",
+  "corpus_documents": 16,
+  "total_queries": 20,
+  "answerable_queries": 16,
+  "unanswerable_queries": 4,
+  "methods": {
+    "word": {
+      "hit_at_3": 0.75,
+      "mrr": 0.75,
+      "correct_abstention_rate": 1.0,
+      "failures": [
+        {
+          "query": "硫化物电解质为什么对湿度敏感，有哪些界面挑战？",
+          "retrieved": [],
+          "gold": [
+            "sulfide_electrolyte"
+          ]
+        },
+        {
+          "query": "锂枝晶短路要如何诊断，临界电流密度是什么？",
+          "retrieved": [],
+          "gold": [
+            "dendrite_failure"
+          ]
+        },
+        {
+          "query": "钙钛矿太阳能电池界面钝化和水氧稳定性",
+          "retrieved": [],
+          "gold": [
+            "perovskite_stability"
+          ]
+        },
+        {
+          "query": "对比硫化物和氧化物固态电解质的界面阻抗及制造挑战",
+          "retrieved": [],
+          "gold": [
+            "sulfide_electrolyte",
+            "oxide_electrolyte"
+          ]
+        }
+      ]
+    },
+    "hybrid": {
+      "hit_at_3": 1.0,
+      "mrr": 1.0,
+      "correct_abstention_rate": 1.0,
+      "failures": []
+    }
+  },
+  "limitations": [
+    "This is a small synthetic corpus with manually-authored benchmark questions.",
+    "Hybrid is word + character TF-IDF, NOT dense embedding retrieval or reranking.",
+    "Metrics evaluate retrieval only, NOT factual answer quality or real production performance.",
+    "No baseline or improvement claim should be made until numbers are inspected."
+  ]
+}

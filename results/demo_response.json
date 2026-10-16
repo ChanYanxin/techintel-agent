@@ -1,0 +1,27 @@
+{
+  "answer": "离线证据预览（非 LLM 总结；资料为演示或用户上传内容）：\n- [Source note: AutoSEE solid-electrolyte research agent (2026)] [source:real_autosee_2026] # Source note: AutoSEE solid-electrolyte research agent (2026) TYPE: Independently source-identified PUBLICATION SUMMARY, written for TechIntel demo; NOT the paper full text. Verify the publication directly before quoting results.\n建议核对原文和实验数据后再形成正式结论。",
+  "sources": [
+    "real_autosee_2026"
+  ],
+  "evidence": [
+    {
+      "id": "real_autosee_2026#c0",
+      "doc_id": "real_autosee_2026",
+      "title": "Source note: AutoSEE solid-electrolyte research agent (2026)",
+      "snippet": "# Source note: AutoSEE solid-electrolyte research agent (2026) TYPE: Independently source-identified PUBLICATION SUMMARY, written for TechIntel demo; NOT the paper full text. Verify the publication directly before quoting results. SOURCE: Feifei Luo et al., \"AutoSEE: An Artificial Intelligence Agent for Automated Solid Electrolyte Exploration,\" ACS Energy Letters, 2026, 11(4), 3369-3376. DOI: https://doi.org/10.1021/acsenergylett.6c00020 The AutoSEE researchers describe a solid electrolyte discovery workflow controlled by GPT-4o with literature screening, text mining, and machine learning capabilities. The published abstract reports processing 226 papers and mean precision of 93.4% in five minutes for the selected halide-electrolyte case st",
+      "score": 0.22724,
+      "path": "/mnt/data/techintel-agent/corpus/source_notes/real_autosee_2026.md"
+    }
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "tool": "search_knowledge",
+      "count": 1,
+      "status": "ok"
+    }
+  ],
+  "mode": "offline",
+  "abstained": false,
+  "latency_ms": 6
+}

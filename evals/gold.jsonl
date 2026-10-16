@@ -1,0 +1,20 @@
+{"query":"硫化物电解质为什么对湿度敏感，有哪些界面挑战？","gold_docs":["sulfide_electrolyte"],"answerable":true}
+{"query":"How does moisture exposure affect sulfide solid electrolytes?","gold_docs":["sulfide_electrolyte"],"answerable":true}
+{"query":"LLZO ceramic oxide electrolyte sintering and grain boundary challenges","gold_docs":["oxide_electrolyte"],"answerable":true}
+{"query":"氧化物 LLZO 电解质烧结和脆性有什么问题？","gold_docs":["oxide_electrolyte"],"answerable":true}
+{"query":"PEO polymer electrolyte flexibility and room temperature ionic conductivity","gold_docs":["polymer_electrolyte"],"answerable":true}
+{"query":"锂枝晶短路要如何诊断，临界电流密度是什么？","gold_docs":["dendrite_failure"],"answerable":true}
+{"query":"AI for Science battery research agent unit conversion tool RAG","gold_docs":["ai_for_battery"],"answerable":true}
+{"query":"碳化硅 MOSFET 栅氧可靠性和阈值电压漂移","gold_docs":["sic_power_semiconductor"],"answerable":true}
+{"query":"organic solar cells donor acceptor HOMO LUMO non fullerene","gold_docs":["organic_solar_cells"],"answerable":true}
+{"query":"钙钛矿太阳能电池界面钝化和水氧稳定性","gold_docs":["perovskite_stability"],"answerable":true}
+{"query":"EDA agent RTL synthesis tool safety and formal verification","gold_docs":["eda_agent"],"answerable":true}
+{"query":"MCP standard tools permission prompt injection risk","gold_docs":["mcp_security"],"answerable":true}
+{"query":"RAG retrieval evaluation Hit@k MRR and faithfulness","gold_docs":["rag_evaluation"],"answerable":true}
+{"query":"How do continuous batching and KV caching change GPU throughput?","gold_docs":["serving_optimization"],"answerable":true}
+{"query":"对比硫化物和氧化物固态电解质的界面阻抗及制造挑战","gold_docs":["sulfide_electrolyte","oxide_electrolyte"],"answerable":true}
+{"query":"RAG evaluation citation validity versus faithfulness","gold_docs":["rag_evaluation"],"answerable":true}
+{"query":"What is the capital of Uruguay?","gold_docs":[],"answerable":false}
+{"query":"2026 World Cup golden boot winner","gold_docs":[],"answerable":false}
+{"query":"How many rings does Neptune have?","gold_docs":[],"answerable":false}
+{"query":"Tell me the cooking time for french macarons","gold_docs":[],"answerable":false}

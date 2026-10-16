@@ -1,6 +1,9 @@
 .venv/
 __pycache__/
 .pytest_cache/
-*.py[cod]
+*.egg-info/
 .env
-*.sqlite3
+*.sqlite
+results/*.local.json
+corpus/your_docs/*
+!corpus/your_docs/.gitkeep
