@@ -1,0 +1,12 @@
+{"query":"LLZO oxide densification and interface", "expected_source_ids":["SYN-LLZO"]}
+{"query":"sulfide electrolyte moisture sensitivity and air stability", "expected_source_ids":["SYN-SULFIDE"]}
+{"query":"experiment CSV conductivity screening temperature", "expected_source_ids":["SYN-CSV"]}
+{"query":"retrieval augmented generation citation evidence", "expected_source_ids":["SYN-RAG"]}
+{"query":"polymer electrolyte ionic transport temperature", "expected_source_ids":["SYN-POLYMER"]}
+{"query":"electrode electrolyte contact resistance cycling interface", "expected_source_ids":["SYN-INTERFACE"]}
+{"query":"screen CSV conductivity data", "expected_source_ids":["SYN-CSV"]}
+{"query":"oxide ceramic LLZO process", "expected_source_ids":["SYN-LLZO"]}
+{"query":"sulfide stability moisture", "expected_source_ids":["SYN-SULFIDE"]}
+{"query":"retrieval citation abstain documents", "expected_source_ids":["SYN-RAG"]}
+{"query":"Himalayan snow leopard breeding habitats", "expected_source_ids":[]}
+{"query":"Roman empire taxation policies", "expected_source_ids":[]}

@@ -1,0 +1,135 @@
+{
+  "dataset": "synthetic, author-written; same-source evaluation, not independent",
+  "queries": 12,
+  "hits_at_3_or_correct_abstentions": 12,
+  "hit_or_abstention_rate": 1.0,
+  "negative_cases_correctly_abstained": 2,
+  "median_retrieval_latency_ms": 0.032,
+  "breakdown": [
+    {
+      "query": "LLZO oxide densification and interface",
+      "expected": [
+        "SYN-LLZO"
+      ],
+      "retrieved": [
+        "SYN-CSV",
+        "SYN-INTERFACE",
+        "SYN-LLZO"
+      ],
+      "pass": true
+    },
+    {
+      "query": "sulfide electrolyte moisture sensitivity and air stability",
+      "expected": [
+        "SYN-SULFIDE"
+      ],
+      "retrieved": [
+        "SYN-INTERFACE",
+        "SYN-POLYMER",
+        "SYN-SULFIDE"
+      ],
+      "pass": true
+    },
+    {
+      "query": "experiment CSV conductivity screening temperature",
+      "expected": [
+        "SYN-CSV"
+      ],
+      "retrieved": [
+        "SYN-CSV",
+        "SYN-POLYMER",
+        "SYN-SULFIDE"
+      ],
+      "pass": true
+    },
+    {
+      "query": "retrieval augmented generation citation evidence",
+      "expected": [
+        "SYN-RAG"
+      ],
+      "retrieved": [
+        "SYN-RAG"
+      ],
+      "pass": true
+    },
+    {
+      "query": "polymer electrolyte ionic transport temperature",
+      "expected": [
+        "SYN-POLYMER"
+      ],
+      "retrieved": [
+        "SYN-CSV",
+        "SYN-LLZO",
+        "SYN-POLYMER"
+      ],
+      "pass": true
+    },
+    {
+      "query": "electrode electrolyte contact resistance cycling interface",
+      "expected": [
+        "SYN-INTERFACE"
+      ],
+      "retrieved": [
+        "SYN-INTERFACE",
+        "SYN-LLZO",
+        "SYN-POLYMER"
+      ],
+      "pass": true
+    },
+    {
+      "query": "screen CSV conductivity data",
+      "expected": [
+        "SYN-CSV"
+      ],
+      "retrieved": [
+        "SYN-CSV",
+        "SYN-LLZO",
+        "SYN-SULFIDE"
+      ],
+      "pass": true
+    },
+    {
+      "query": "oxide ceramic LLZO process",
+      "expected": [
+        "SYN-LLZO"
+      ],
+      "retrieved": [
+        "SYN-LLZO"
+      ],
+      "pass": true
+    },
+    {
+      "query": "sulfide stability moisture",
+      "expected": [
+        "SYN-SULFIDE"
+      ],
+      "retrieved": [
+        "SYN-INTERFACE",
+        "SYN-SULFIDE"
+      ],
+      "pass": true
+    },
+    {
+      "query": "retrieval citation abstain documents",
+      "expected": [
+        "SYN-RAG"
+      ],
+      "retrieved": [
+        "SYN-RAG"
+      ],
+      "pass": true
+    },
+    {
+      "query": "Himalayan snow leopard breeding habitats",
+      "expected": [],
+      "retrieved": [],
+      "pass": true
+    },
+    {
+      "query": "Roman empire taxation policies",
+      "expected": [],
+      "retrieved": [],
+      "pass": true
+    }
+  ]
+}

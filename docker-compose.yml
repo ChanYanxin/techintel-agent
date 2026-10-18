@@ -1,0 +1,12 @@
+services:
+  sciwork:
+    build: .
+    ports: ["8000:8000"]
+    environment:
+      SCIW_MODEL_MODE: ${SCIW_MODEL_MODE:-offline}
+      SCIW_USE_MCP: ${SCIW_USE_MCP:-false}
+      SCIW_OPENAI_API_KEY: ${SCIW_OPENAI_API_KEY:-}
+      SCIW_OPENAI_MODEL: ${SCIW_OPENAI_MODEL:-gpt-4.1-mini}
+    read_only: true
+    tmpfs: [/tmp]
+    security_opt: ["no-new-privileges:true"]

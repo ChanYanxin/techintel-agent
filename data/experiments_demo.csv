@@ -1,0 +1,7 @@
+sample_id,material,family,conductivity_s_cm,temperature_c
+EX-001,LLZO-A,oxide,0.00035,25
+EX-002,LLZO-B,oxide,0.00048,25
+EX-003,LPS-A,sulfide,0.0012,25
+EX-004,PEO-LiTFSI,polymer,0.0001,60
+EX-005,LPS-B,sulfide,0.0008,25
+EX-006,Composite-X,composite,0.00065,40
